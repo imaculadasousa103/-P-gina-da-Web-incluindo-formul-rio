@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="estilo.css">   
+</head>
+<body>
+    <div>
+        <h1>Confirme sua presença no casamento!</h1>
+        <p>Preencha seus dados</p>
+    </div>
+    <div>
+        <img class="imagem" src="casamento.png">
+    </div>
+   
+        <form class="formulario">
+            
+                <div class="primeira">
+                    <label for="inputnome">Nome</label>
+                    <input class="inputall" type="text" id="inputnome">
+                </div>
+
+                <div class="segunda">
+                    <label for="inputsobrenome">Sobrenome</label>
+                    <input class="inputall" type="text" id="inputsobrenome">
+                </div>
+     
+                <div class="terceira">
+                    <label for="inputemail">E-mail</label>
+                    <input class="inputall" type="email" id="inputemail">
+                </div>
+            
+                <div class="quarta">
+                    <label> Você estará presente? </label>
+                    <label>
+                        <input type="radio" name="convite" value="casamento" checked>SIM
+                    </label>
+                    <label>
+                        <input type="radio" name="convite" value="casamento">NÃO
+                    </label>
+                </div>
+                <div class="but">
+                    <input class="inputbut" type="submit" name="enviar">
+                </div>
+      
+        </form>
+    
+    
+</body>
+</html>
